@@ -1,1 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="760" viewBox="0 0 1180 760"><style>text{font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace;white-space:pre}.ascii{fill:#3b4858;font-size:11.4px}.text{fill:#24292f;font-size:15px}.muted{fill:#57606a;font-size:13px}.key{fill:#0969da;font-size:14px}.value{fill:#24292f;font-size:14px}.accent{fill:#0550ae;font-size:14px}.cursor{animation:blink 1s step-end infinite}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}</style><rect width="1180" height="760" rx="18" fill="#f6f8fa"/><rect x="1" y="1" width="1178" height="758" rx="17" fill="none" stroke="#d0d7de"/><text x="28" y="32" class="muted">~/profile</text><text x="1085" y="32" class="muted">tty0</text><line x1="28" y1="46" x2="1152" y2="46" stroke="#d0d7de"/><text x="24" y="68" class="ascii"><tspan x="24" dy="0">                                                       </tspan><tspan x="24" dy="15.2">                            ,,                         </tspan><tspan x="24" dy="15.2">                      ,~*?*L"~"_.                      </tspan><tspan x="24" dy="15.2">                   ..'`-'':-,,'-?+_                    </tspan><tspan x="24" dy="15.2">                  :-.   `,__yyL_'*+"                   </tspan><tspan x="24" dy="15.2">                 `'-.  ,jgggggggp_,-_                  </tspan><tspan x="24" dy="15.2">                      '__`"ff""?fk`*/L                 </tspan><tspan x="24" dy="15.2">                     _(_"-_g&amp;__]fg_``'.                </tspan><tspan x="24" dy="15.2">                    ,dgggR9B&amp;&amp;Bgggk,                   </tspan><tspan x="24" dy="15.2">                   `_f9M%n'"*=@Bggpy                   </tspan><tspan x="24" dy="15.2">                    ii?k___[QE_j&amp;&amp;P*                   </tspan><tspan x="24" dy="15.2">                     '"??fL[$gg&amp;gp"                    </tspan><tspan x="24" dy="15.2">                      ,'""f%@BB@fr                     </tspan><tspan x="24" dy="15.2">                      |_.```'_]qgL                     </tspan><tspan x="24" dy="15.2">                      jyL__xgggg&amp;[                     </tspan><tspan x="24" dy="15.2">                  ..'-byjLLaggggggk)~_,                </tspan><tspan x="24" dy="15.2">            ,,~;"''````*?hwdBBB@h?\_|/?7=+__           </tspan><tspan x="24" dy="15.2">         ,*\"",'"-,,,.... ````,__&lt;+??l\/\*\*???=L_       </tspan><tspan x="24" dy="15.2">       ,""'*~"-.``'''''.,....'"""";___^"-;"*^???L.     </tspan><tspan x="24" dy="15.2">     .':':`;!_,,,......,,',,,,"-~__|&lt;^*'_"'!\r&gt;&lt;?},    </tspan><tspan x="24" dy="15.2">     '`-.'`!"\_,',,...,'',',:,-"~|**^|"_"'-*""\^v?L,   </tspan><tspan x="24" dy="15.2">   .,.,'.``;'"__'',,..,,`''''''-!""*^!_*'.,' '!/\+}&lt;_  </tspan><tspan x="24" dy="15.2">   '-,.,.``:.`*&gt;_.''.,--.`'.''',"""""""'.,' `,',*?L?l_ </tspan><tspan x="24" dy="15.2">  ..,``-\ `",`'*\_,,''!_:.```'''--"_~~"'.'  `'_""_+\~| </tspan><tspan x="24" dy="15.2"> ...!,.`!'`',.`'""!;_,~|!-.```.''''"_;-,:`  .,"~"_|"&lt;^ </tspan><tspan x="24" dy="15.2">.,.`'\,`'"``'..``'"""!"~*;,.````''''"~-''  ``-""",|"_7";</tspan><tspan x="24" dy="15.2">:_-.`|_.., ```````'','''""",...`````...,`   .,',~|&lt;?^'|</tspan><tspan x="24" dy="15.2">""_,.'i_';    `````'-,.``'":...`````...'   `.'.,:_i?"'J</tspan></text><text x="30" y="505" class="muted">rendered with symbol-art · text mode</text><text x="28" y="542" class="accent">identity</text><text x="28" y="570" class="key">name</text><text x="155" y="570" class="value">Behrad Hozouri</text><text x="28" y="595" class="key">role</text><text x="155" y="595" class="value">Computer Engineering Student</text><text x="28" y="620" class="key">university</text><text x="155" y="620" class="value">Amirkabir University of Technology</text><text x="28" y="645" class="key">location</text><text x="155" y="645" class="value">Tehran</text><text x="28" y="670" class="key">languages</text><text x="155" y="670" class="value">Persian · English</text><text x="28" y="695" class="key">contact</text><text x="155" y="695" class="value">@BehradHZ · github.com/BehradHZ</text><text x="28" y="720" class="key">uptime</text><text x="155" y="720" class="value">20y 5m 1d</text><text x="535" y="86" class="text">behrad@github</text><text x="535" y="108" class="muted">────────────────────────────────────────────────</text><text x="535" y="141" class="accent">session</text><text x="535" y="169" class="key">current</text><text x="660" y="169" class="value">symbol-art</text><text x="535" y="194" class="key">next</text><text x="660" y="194" class="value">Dotick</text><text x="535" y="219" class="key">last push</text><text x="660" y="219" class="value">symbol-art · 2026-09-11</text><text x="535" y="262" class="accent">github</text><text x="535" y="290" class="value">repos 7  ·  stars 8  ·  contrib 119  ·  followers 31</text><text x="535" y="337" class="accent">stack</text><text x="535" y="365" class="key">backend</text><text x="660" y="365" class="value">Python · Django</text><text x="535" y="390" class="key">frontend</text><text x="660" y="390" class="value">TypeScript · React Native</text><text x="535" y="415" class="key">data</text><text x="660" y="415" class="value">PostgreSQL</text><text x="535" y="440" class="key">tools</text><text x="660" y="440" class="value">Git · Docker · VS Code</text><text x="535" y="484" class="accent">recently shipped</text><text x="535" y="512" class="muted">4734c8f</text><text x="610" y="512" class="key">symbol-art</text><text x="765" y="512" class="value">Update output image format in README</text><text x="535" y="537" class="muted">c012653</text><text x="610" y="537" class="key">symbol-art</text><text x="765" y="537" class="value">add behrad-output.jpg</text><text x="535" y="562" class="muted">d1da3ad</text><text x="610" y="562" class="key">symbol-art</text><text x="765" y="562" class="value">add behrad-input.jpg</text><text x="535" y="587" class="muted">d7f6bf8</text><text x="610" y="587" class="key">Dotick</text><text x="765" y="587" class="value">docs(i0): close verified foundation increme…</text><line x1="535" y1="696" x2="1150" y2="696" stroke="#d0d7de"/><text x="535" y="730" class="accent">behrad@github:~$</text><text x="700" y="730" class="text cursor">█</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<style>
+text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; white-space:pre; }
+.ascii { fill:#3b4858; font-size:11.4px; }
+.text { fill:#24292f; font-size:15px; }
+.muted { fill:#57606a; font-size:13px; }
+.key { fill:#0969da; font-size:14px; }
+.value { fill:#24292f; font-size:14px; }
+.value-small { fill:#24292f; font-size:12.5px; }
+.accent { fill:#0550ae; font-size:14px; }
+.cursor { animation:blink 1s step-end infinite; }
+@keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+</style>
+<rect width="1180" height="700" rx="18" fill="#f6f8fa"/>
+<rect x="1" y="1" width="1178" height="698" rx="17" fill="none" stroke="#d0d7de"/>
+<text x="28" y="32" class="muted">~/profile</text>
+<text x="1085" y="32" class="muted">tty0</text>
+<line x1="28" y1="46" x2="1152" y2="46" stroke="#d0d7de"/>
+
+<text x="24" y="68" class="ascii"><tspan x="24" dy="0">                                                       </tspan><tspan x="24" dy="15.2">                            ,,                         </tspan><tspan x="24" dy="15.2">                      ,~*?*L"~"_.                      </tspan><tspan x="24" dy="15.2">                   ..'`-'':-,,'-?+_                    </tspan><tspan x="24" dy="15.2">                  :-.   `,__yyL_'*+"                   </tspan><tspan x="24" dy="15.2">                 `'-.  ,jgggggggp_,-_                  </tspan><tspan x="24" dy="15.2">                      '__`"ff""?fk`*/L                 </tspan><tspan x="24" dy="15.2">                     _(_"-_g&amp;__]fg_``'.                </tspan><tspan x="24" dy="15.2">                    ,dgggR9B&amp;&amp;Bgggk,                   </tspan><tspan x="24" dy="15.2">                   `_f9M%n'"*=@Bggpy                   </tspan><tspan x="24" dy="15.2">                    ii?k___[QE_j&amp;&amp;P*                   </tspan><tspan x="24" dy="15.2">                     '"??fL[$gg&amp;gp"                    </tspan><tspan x="24" dy="15.2">                      ,'""f%@BB@fr                     </tspan><tspan x="24" dy="15.2">                      |_.```'_]qgL                     </tspan><tspan x="24" dy="15.2">                      jyL__xgggg&amp;[                     </tspan><tspan x="24" dy="15.2">                  ..'-byjLLaggggggk)~_,                </tspan><tspan x="24" dy="15.2">            ,,~;"''````*?hwdBBB@h?\_|/?7=+__           </tspan><tspan x="24" dy="15.2">         ,*\"",'"-,,,.... ````,__&lt;+??l\/\*\*???=L_       </tspan><tspan x="24" dy="15.2">       ,""'*~"-.``'''''.,....'"""";___^"-;"*^???L.     </tspan><tspan x="24" dy="15.2">     .':':`;!_,,,......,,',,,,"-~__|&lt;^*'_"'!\r&gt;&lt;?},    </tspan><tspan x="24" dy="15.2">     '`-.'`!"\_,',,...,'',',:,-"~|**^|"_"'-*""\^v?L,   </tspan><tspan x="24" dy="15.2">   .,.,'.``;'"__'',,..,,`''''''-!""*^!_*'.,' '!/\+}&lt;_  </tspan><tspan x="24" dy="15.2">   '-,.,.``:.`*&gt;_.''.,--.`'.''',"""""""'.,' `,',*?L?l_ </tspan><tspan x="24" dy="15.2">  ..,``-\ `",`'*\_,,''!_:.```'''--"_~~"'.'  `'_""_+\~| </tspan><tspan x="24" dy="15.2"> ...!,.`!'`',.`'""!;_,~|!-.```.''''"_;-,:`  .,"~"_|"&lt;^ </tspan><tspan x="24" dy="15.2">.,.`'\,`'"``'..``'"""!"~*;,.````''''"~-''  ``-""",|"_7";</tspan><tspan x="24" dy="15.2">:_-.`|_.., ```````'','''""",...`````...,`   .,',~|&lt;?^'|</tspan><tspan x="24" dy="15.2">""_,.'i_';    `````'-,.``'":...`````...'   `.'.,:_i?"'J</tspan></text>
+<text x="30" y="505" class="muted">rendered with symbol-art · text mode</text>
+<text x="30" y="540" class="key">uptime</text>
+<text x="145" y="540" class="value">20y 5m 1d</text>
+<text x="30" y="568" class="key">contact</text>
+<text x="145" y="568" class="value">behradhozouri@gmail.com</text>
+
+<text x="535" y="86" class="text">behrad@github</text>
+<text x="535" y="108" class="muted">────────────────────────────────────────────────</text>
+
+<text x="535" y="143" class="accent">identity</text>
+<text x="535" y="171" class="key">name</text>
+<text x="660" y="171" class="value">Behrad Hozouri</text>
+<text x="535" y="198" class="key">role</text>
+<text x="660" y="198" class="value-small">Computer Engineering Student at Amirkabir University of Technology</text>
+
+<text x="535" y="242" class="accent">current</text>
+<text x="535" y="270" class="key">project</text>
+<text x="660" y="270" class="value">Dotick</text>
+<text x="535" y="297" class="key">last push</text>
+<text x="660" y="297" class="value">Dotick · 2026-09-11</text>
+
+<text x="535" y="341" class="accent">github</text>
+<text x="535" y="369" class="key">repos</text>
+<text x="660" y="369" class="value">7</text>
+<text x="535" y="396" class="key">stars</text>
+<text x="660" y="396" class="value">8</text>
+<text x="535" y="423" class="key">followers</text>
+<text x="660" y="423" class="value">31</text>
+
+<text x="535" y="467" class="accent">stack</text>
+<text x="535" y="495" class="key">stack.backend</text><text x="690" y="495" class="value">Python · Django</text>
+<text x="535" y="520" class="key">stack.frontend</text><text x="690" y="520" class="value">TypeScript · React Native</text>
+<text x="535" y="545" class="key">stack.data</text><text x="690" y="545" class="value">PostgreSQL</text>
+<text x="535" y="570" class="key">stack.tools</text><text x="690" y="570" class="value">Git · Docker · VS Code</text>
+
+<text x="535" y="614" class="accent">recently shipped</text>
+<text x="535" y="535" class="muted">4734c8f</text><text x="610" y="535" class="key">symbol-art</text><text x="775" y="535" class="value">Update output image format in README</text>
+
+<line x1="535" y1="648" x2="1150" y2="648" stroke="#d0d7de"/>
+<text x="535" y="680" class="accent">behrad@github:~$</text>
+<text x="700" y="680" class="text cursor">█</text>
+</svg>
