@@ -8,7 +8,8 @@ on:
     branches: [main]
     paths:
       - "profile_v2.py"
-      - "assets/portrait.txt"
+      - "assets/portrait-dark.jpg"
+      - "assets/portrait-light.jpg"
       - ".github/workflows/profile.yml"
 
 permissions:
