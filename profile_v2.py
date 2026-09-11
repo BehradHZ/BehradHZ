@@ -141,12 +141,12 @@ def load():
 
 
 def portrait(theme):
-    image = (ROOT / "assets" / f"portrait-{theme}.jpg").read_bytes()
+    image = (ROOT / "assets" / f"portrait-{theme}.png").read_bytes()
     encoded = base64.b64encode(image).decode("ascii")
     return (
         '<image x="30" y="65" width="455" height="455" '
         'preserveAspectRatio="xMidYMid meet" '
-        f'href="data:image/jpeg;base64,{encoded}"/>'
+        f'href="data:image/png;base64,{encoded}"/>'
     )
 
 
@@ -167,7 +167,7 @@ def svg(theme, data):
         f'{data["repos"]} repos · {data["stars"]} stars · {data["followers"]} followers'
     )
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="626" viewBox="0 0 1180 626">
 <style>
 text {{ font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; white-space:pre; }}
 .text {{ fill:{colors['text']}; font-size:15px; }}
@@ -179,14 +179,14 @@ text {{ font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; w
 .cursor {{ animation:blink 1s step-end infinite; }}
 @keyframes blink {{ 0%,49% {{ opacity:1; }} 50%,100% {{ opacity:0; }} }}
 </style>
-<rect width="1180" height="700" rx="18" fill="{colors['bg']}"/>
-<rect x="1" y="1" width="1178" height="698" rx="17" fill="none" stroke="{colors['line']}"/>
+<rect width="1180" height="626" rx="18" fill="{colors['bg']}"/>
+<rect x="1" y="1" width="1178" height="624" rx="17" fill="none" stroke="{colors['line']}"/>
 <text x="28" y="32" class="muted">~/profile</text>
 <text x="1085" y="32" class="muted">tty0</text>
 <line x1="28" y1="46" x2="1152" y2="46" stroke="{colors['line']}"/>
 
 {portrait(theme)}
-<text x="30" y="535" class="muted">rendered with symbol-art</text>
+<text x="257.5" y="542" text-anchor="middle" class="muted">rendered with symbol-art</text>
 
 <text x="535" y="86" class="text">behrad@github</text>
 <text x="535" y="108" class="muted">────────────────────────────────────────────────</text>
@@ -215,9 +215,9 @@ text {{ font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; w
 <text x="535" y="506" class="key">stack.data</text><text x="690" y="506" class="value">{STATIC['data']}</text>
 <text x="535" y="531" class="key">stack.tools</text><text x="690" y="531" class="value">{STATIC['tools']}</text>
 
-<line x1="535" y1="648" x2="1150" y2="648" stroke="{colors['line']}"/>
-<text x="535" y="680" class="accent">behrad@github:~$</text>
-<text x="700" y="680" class="text cursor">█</text>
+<line x1="535" y1="574" x2="1150" y2="574" stroke="{colors['line']}"/>
+<text x="535" y="606" class="accent">behrad@github:~$</text>
+<text x="700" y="606" class="text cursor">█</text>
 </svg>'''
 
 
