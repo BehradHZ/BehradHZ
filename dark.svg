@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
 <style>
 text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; white-space:pre; }
-.ascii { fill:#c9ddff; font-family:Consolas,"Courier New","Liberation Mono","DejaVu Sans Mono",monospace; font-size:20px; font-weight:400; font-variant-ligatures:none; letter-spacing:0; }
 .text { fill:#e6edf3; font-size:15px; }
 .muted { fill:#8b98aa; font-size:13px; }
 .key { fill:#6ea8fe; font-size:14px; }
@@ -17,7 +16,7 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="1085" y="32" class="muted">tty0</text>
 <line x1="28" y1="46" x2="1152" y2="46" stroke="#253041"/>
 
-<g transform="translate(24 58) scale(0.625989)"><text x="20" y="36" class="ascii" xml:space="preserve"><tspan x="20" dy="0">                                                       </tspan><tspan x="20" dy="24.10">                            ,,                         </tspan><tspan x="20" dy="24.10">                      ,~*?*L"~"_.                      </tspan><tspan x="20" dy="24.10">                   ..'`-'':-,,'-?+_                    </tspan><tspan x="20" dy="24.10">                  :-.   `,__yyL_'*+"                   </tspan><tspan x="20" dy="24.10">                 `'-.  ,jgggggggp_,-_                  </tspan><tspan x="20" dy="24.10">                      '__`"ff""?fk`*/L                 </tspan><tspan x="20" dy="24.10">                     _(_"-_g&amp;__]fg_``'.                </tspan><tspan x="20" dy="24.10">                    ,dgggR9B&amp;&amp;Bgggk,                   </tspan><tspan x="20" dy="24.10">                   `_f9M%n'"*=@Bggpy                   </tspan><tspan x="20" dy="24.10">                    ii?k___[QE_j&amp;&amp;P*                   </tspan><tspan x="20" dy="24.10">                     '"??fL[$gg&amp;gp"                    </tspan><tspan x="20" dy="24.10">                      ,'""f%@BB@fr                     </tspan><tspan x="20" dy="24.10">                      |_.```'_]qgL                     </tspan><tspan x="20" dy="24.10">                      jyL__xgggg&amp;[                     </tspan><tspan x="20" dy="24.10">                  ..'-byjLLaggggggk)~_,                </tspan><tspan x="20" dy="24.10">            ,,~;"''````*?hwdBBB@h?\_|/?7=+__           </tspan><tspan x="20" dy="24.10">         ,*\"",'"-,,,.... ````,__&lt;+??l\/\*\*???=L_       </tspan><tspan x="20" dy="24.10">       ,""'*~"-.``'''''.,....'"""";___^"-;"*^???L.     </tspan><tspan x="20" dy="24.10">     .':':`;!_,,,......,,',,,,"-~__|&lt;^*'_"'!\r&gt;&lt;?},    </tspan><tspan x="20" dy="24.10">     '`-.'`!"\_,',,...,'',',:,-"~|**^|"_"'-*""\^v?L,   </tspan><tspan x="20" dy="24.10">   .,.,'.``;'"__'',,..,,`''''''-!""*^!_*'.,' '!/\+}&lt;_  </tspan><tspan x="20" dy="24.10">   '-,.,.``:.`*&gt;_.''.,--.`'.''',"""""""'.,' `,',*?L?l_ </tspan><tspan x="20" dy="24.10">  ..,``-\ `",`'*\_,,''!_:.```'''--"_~~"'.'  `'_""_+\~| </tspan><tspan x="20" dy="24.10"> ...!,.`!'`',.`'""!;_,~|!-.```.''''"_;-,:`  .,"~"_|"&lt;^ </tspan><tspan x="20" dy="24.10">.,.`'\,`'"``'..``'"""!"~*;,.````''''"~-''  ``-""",|"_7";</tspan><tspan x="20" dy="24.10">:_-.`|_.., ```````'','''""",...`````...,`   .,',~|&lt;?^'|</tspan><tspan x="20" dy="24.10">""_,.'i_';    `````'-,.``'":...`````...'   `.'.,:_i?"'J</tspan></text></g>
+<image x="30" y="65" width="455" height="455" preserveAspectRatio="xMidYMid meet" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wgARCAFAAUADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB84AAAAAAAAAAAAAAAAAAAAAAAAAAAACiLAAAAAAAAAAAAAAAAAAAACpSLAAAAAAAAAAAAAAAAAujDtU4O3MkFAAAAAAAAAAAAAAAWDpriTu4w7uFLmxSwAAAAAAAAAAAAAANDNtNcvRzTGlJjtxAUAAAAAAAAAAAABZTdyQmV63lpN3Ghy68zIUAAAAAAAAAAAABYKUytE3pOXXOi5vEBQAAAAAAAAAAAAAFgpoz0VIZGLFAAAAAAAAAAAAAAAAAazRubTlLFAAAAAAAAAAAAAAAqwiw1rPRJpa457cogUAAAAAAAAAAAAACpQousaTVmTXIJRYoiwAAAAAAAAsAAAAABYLAqCoKgtyNZUiwAAAAAAAAAAAAAAAKIUgBRKIAAAAAAAAAAAAACoLAAAsCgiwAAAAAAsAAAAAAACwAAAKlAIAAAAAAAAAAAAAAAAAACywLAAAAAAAAAAAAAAAAAACxRAFIAsAAAAAAAAAAAAAAAFCAAAAAAAAAAAAAAAAAAAqAD//EACAQAAICAQQDAQAAAAAAAAAAAAERAFAQITFBYAIggJD/2gAIAQEAAQUC+K16EVJp3DSHLhoFFFBg+MRinFBph1Qqhjii0iip9MnprwBDvSrB3pzvTkOLpz/JH//EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQMBAT8BSH//xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAECAQE/AUh//8QAHhAAAgICAgMAAAAAAAAAAAAAAEFQ4RAxIGCAkJH/2gAIAQEABj8C8LKKh7LL7s8aNDgL52L7DoUOxjhNY0XCoQu8KHRUMxjHDWXDoXqR/8QAKxAAAgEBBgYBBAMAAAAAAAAAAAERkSExQVBR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"/>
 <text x="30" y="535" class="muted">rendered with symbol-art</text>
 
 <text x="535" y="86" class="text">behrad@github</text>
@@ -30,26 +29,22 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="660" y="198" class="value-small">Computer Engineering Student · Amirkabir University of Technology</text>
 <text x="535" y="225" class="key">uptime</text>
 <text x="660" y="225" class="value">20y 5m 1d</text>
-<text x="535" y="252" class="key">contact</text>
-<text x="660" y="252" class="value">behradhozouri@gmail.com</text>
 
-<text x="535" y="296" class="accent">current</text>
-<text x="535" y="324" class="key">project</text>
-<text x="660" y="324" class="value">Dotick</text>
-<text x="535" y="351" class="key">last push</text>
-<text x="660" y="351" class="value">Dotick · 2026-09-11</text>
+<text x="535" y="270" class="accent">current</text>
+<text x="535" y="298" class="key">project</text>
+<text x="660" y="298" class="value">Dotick</text>
+<text x="535" y="325" class="key">github</text>
+<text x="660" y="325" class="value">7 repos · 8 stars · 31 followers</text>
+<text x="535" y="352" class="key">last push</text>
+<text x="660" y="352" class="value">Dotick · 2026-09-11</text>
+<text x="535" y="379" class="key">recently shipped</text>
+<text x="690" y="379" class="value">Update output image format in README</text>
 
-<text x="535" y="395" class="key">github</text>
-<text x="660" y="395" class="value">7 repos · 8 stars · 31 followers</text>
-
-<text x="535" y="439" class="accent">stack</text>
-<text x="535" y="467" class="key">stack.backend</text><text x="690" y="467" class="value">Python · Django</text>
-<text x="535" y="492" class="key">stack.frontend</text><text x="690" y="492" class="value">TypeScript · React Native</text>
-<text x="535" y="517" class="key">stack.data</text><text x="690" y="517" class="value">PostgreSQL</text>
-<text x="535" y="542" class="key">stack.tools</text><text x="690" y="542" class="value">Git · Docker · VS Code</text>
-
-<text x="535" y="586" class="accent">recently shipped</text>
-<text x="535" y="614" class="muted">4734c8f</text><text x="610" y="614" class="key">symbol-art</text><text x="775" y="614" class="value">Update output image format in README</text>
+<text x="535" y="428" class="accent">stack</text>
+<text x="535" y="456" class="key">stack.backend</text><text x="690" y="456" class="value">Python · Django</text>
+<text x="535" y="481" class="key">stack.frontend</text><text x="690" y="481" class="value">TypeScript · React Native</text>
+<text x="535" y="506" class="key">stack.data</text><text x="690" y="506" class="value">PostgreSQL</text>
+<text x="535" y="531" class="key">stack.tools</text><text x="690" y="531" class="value">Git · Docker · VS Code</text>
 
 <line x1="535" y1="648" x2="1150" y2="648" stroke="#253041"/>
 <text x="535" y="680" class="accent">behrad@github:~$</text>

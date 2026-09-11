@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
 <style>
 text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; white-space:pre; }
-.ascii { fill:#3b4858; font-family:Consolas,"Courier New","Liberation Mono","DejaVu Sans Mono",monospace; font-size:20px; font-weight:400; font-variant-ligatures:none; letter-spacing:0; }
 .text { fill:#24292f; font-size:15px; }
 .muted { fill:#57606a; font-size:13px; }
 .key { fill:#0969da; font-size:14px; }
@@ -17,7 +16,7 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="1085" y="32" class="muted">tty0</text>
 <line x1="28" y1="46" x2="1152" y2="46" stroke="#d0d7de"/>
 
-<g transform="translate(24 58) scale(0.625989)"><text x="20" y="36" class="ascii" xml:space="preserve"><tspan x="20" dy="0">                                                       </tspan><tspan x="20" dy="24.10">                            ,,                         </tspan><tspan x="20" dy="24.10">                      ,~*?*L"~"_.                      </tspan><tspan x="20" dy="24.10">                   ..'`-'':-,,'-?+_                    </tspan><tspan x="20" dy="24.10">                  :-.   `,__yyL_'*+"                   </tspan><tspan x="20" dy="24.10">                 `'-.  ,jgggggggp_,-_                  </tspan><tspan x="20" dy="24.10">                      '__`"ff""?fk`*/L                 </tspan><tspan x="20" dy="24.10">                     _(_"-_g&amp;__]fg_``'.                </tspan><tspan x="20" dy="24.10">                    ,dgggR9B&amp;&amp;Bgggk,                   </tspan><tspan x="20" dy="24.10">                   `_f9M%n'"*=@Bggpy                   </tspan><tspan x="20" dy="24.10">                    ii?k___[QE_j&amp;&amp;P*                   </tspan><tspan x="20" dy="24.10">                     '"??fL[$gg&amp;gp"                    </tspan><tspan x="20" dy="24.10">                      ,'""f%@BB@fr                     </tspan><tspan x="20" dy="24.10">                      |_.```'_]qgL                     </tspan><tspan x="20" dy="24.10">                      jyL__xgggg&amp;[                     </tspan><tspan x="20" dy="24.10">                  ..'-byjLLaggggggk)~_,                </tspan><tspan x="20" dy="24.10">            ,,~;"''````*?hwdBBB@h?\_|/?7=+__           </tspan><tspan x="20" dy="24.10">         ,*\"",'"-,,,.... ````,__&lt;+??l\/\*\*???=L_       </tspan><tspan x="20" dy="24.10">       ,""'*~"-.``'''''.,....'"""";___^"-;"*^???L.     </tspan><tspan x="20" dy="24.10">     .':':`;!_,,,......,,',,,,"-~__|&lt;^*'_"'!\r&gt;&lt;?},    </tspan><tspan x="20" dy="24.10">     '`-.'`!"\_,',,...,'',',:,-"~|**^|"_"'-*""\^v?L,   </tspan><tspan x="20" dy="24.10">   .,.,'.``;'"__'',,..,,`''''''-!""*^!_*'.,' '!/\+}&lt;_  </tspan><tspan x="20" dy="24.10">   '-,.,.``:.`*&gt;_.''.,--.`'.''',"""""""'.,' `,',*?L?l_ </tspan><tspan x="20" dy="24.10">  ..,``-\ `",`'*\_,,''!_:.```'''--"_~~"'.'  `'_""_+\~| </tspan><tspan x="20" dy="24.10"> ...!,.`!'`',.`'""!;_,~|!-.```.''''"_;-,:`  .,"~"_|"&lt;^ </tspan><tspan x="20" dy="24.10">.,.`'\,`'"``'..``'"""!"~*;,.````''''"~-''  ``-""",|"_7";</tspan><tspan x="20" dy="24.10">:_-.`|_.., ```````'','''""",...`````...,`   .,',~|&lt;?^'|</tspan><tspan x="20" dy="24.10">""_,.'i_';    `````'-,.``'":...`````...'   `.'.,:_i?"'J</tspan></text></g>
+<image x="30" y="65" width="455" height="455" preserveAspectRatio="xMidYMid meet" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDADUlKC8oITUvKy88OTU/UIVXUElJUKN1e2GFwarLyL6qurfV8P//1eL/5re6////////////zv//////////////2wBDATk8PFBGUJ1XV53/3Lrc////////////////////////////////////////////////////////////////////wgARCAFAAUADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB9IAAAAAAAAAAAAAAAAAAAAAAAAAAACCsigqUAAAAAAAAAAAAAAAQAAAAFzSgAAAAAAAAAAAASwWCkCZNuUOzl0FCpQAAAAAAAAAAAACUJKMZ6ji604u0FlFgoAAAAAAAAAAAAEsDNKmSdOOjebC749iLCgAAAAAAAAAAAAksM52JbTk6QxN5R15bXaUAAAAAAAAAAAAAk1CVCkJrGTpzsJqdSgAAAAAAAAAAAAASiAlkLhClHSUAAAAAAAAAAAAAAAgBSSwZZOms6AAAAAAAAAAAAAACBJSgznWBBOuuPRdJQAAAAAAAAAAQqABQysAJnUMLUnWVQFkNM0oAAAAAAEAAABYKgAAlBKIoASiVDTOgAAABAAAAsAsAAAAAAAAAJUNJQAAQAAAAAAAAAAAAAAlBKFzSgAQALFIAAAAAsAAAAABSLAQWDSUELLAsFlIAAAABZSLAAAABZSAAAWUSwAWUgALFIAAACgiwAAAoIAABYAAAALKJQiwAAAqUAiiAFAIABLCgAAAAoAAICpSAWUAAgFACLACUAP/EAB8QAAICAgEFAAAAAAAAAAAAAAERAFAQYCAhMUGAkP/aAAgBAQABBQL0rfB1Ip1BTqCgcccOHHHpxqjjzRdY46oaeTB2pXgVAqHp6+SP/8QAFBEBAAAAAAAAAAAAAAAAAAAAgP/aAAgBAwEBPwFIf//EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQIBAT8BSH//xAAdEAACAgIDAQAAAAAAAAAAAAAAQVDhMWAQcICQ/9oACAEBAAY/AvKlFbuuMmRag4dC01jH1BcMhCFDUVDv5Jf/xAApEAACAQEGBwACAwAAAAAAAAAAARGRITFQYXGBECBAQVGh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"/>
 <text x="30" y="535" class="muted">rendered with symbol-art</text>
 
 <text x="535" y="86" class="text">behrad@github</text>
@@ -30,26 +29,22 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="660" y="198" class="value-small">Computer Engineering Student · Amirkabir University of Technology</text>
 <text x="535" y="225" class="key">uptime</text>
 <text x="660" y="225" class="value">20y 5m 1d</text>
-<text x="535" y="252" class="key">contact</text>
-<text x="660" y="252" class="value">behradhozouri@gmail.com</text>
 
-<text x="535" y="296" class="accent">current</text>
-<text x="535" y="324" class="key">project</text>
-<text x="660" y="324" class="value">Dotick</text>
-<text x="535" y="351" class="key">last push</text>
-<text x="660" y="351" class="value">Dotick · 2026-09-11</text>
+<text x="535" y="270" class="accent">current</text>
+<text x="535" y="298" class="key">project</text>
+<text x="660" y="298" class="value">Dotick</text>
+<text x="535" y="325" class="key">github</text>
+<text x="660" y="325" class="value">7 repos · 8 stars · 31 followers</text>
+<text x="535" y="352" class="key">last push</text>
+<text x="660" y="352" class="value">Dotick · 2026-09-11</text>
+<text x="535" y="379" class="key">recently shipped</text>
+<text x="690" y="379" class="value">Update output image format in README</text>
 
-<text x="535" y="395" class="key">github</text>
-<text x="660" y="395" class="value">7 repos · 8 stars · 31 followers</text>
-
-<text x="535" y="439" class="accent">stack</text>
-<text x="535" y="467" class="key">stack.backend</text><text x="690" y="467" class="value">Python · Django</text>
-<text x="535" y="492" class="key">stack.frontend</text><text x="690" y="492" class="value">TypeScript · React Native</text>
-<text x="535" y="517" class="key">stack.data</text><text x="690" y="517" class="value">PostgreSQL</text>
-<text x="535" y="542" class="key">stack.tools</text><text x="690" y="542" class="value">Git · Docker · VS Code</text>
-
-<text x="535" y="586" class="accent">recently shipped</text>
-<text x="535" y="614" class="muted">4734c8f</text><text x="610" y="614" class="key">symbol-art</text><text x="775" y="614" class="value">Update output image format in README</text>
+<text x="535" y="428" class="accent">stack</text>
+<text x="535" y="456" class="key">stack.backend</text><text x="690" y="456" class="value">Python · Django</text>
+<text x="535" y="481" class="key">stack.frontend</text><text x="690" y="481" class="value">TypeScript · React Native</text>
+<text x="535" y="506" class="key">stack.data</text><text x="690" y="506" class="value">PostgreSQL</text>
+<text x="535" y="531" class="key">stack.tools</text><text x="690" y="531" class="value">Git · Docker · VS Code</text>
 
 <line x1="535" y1="648" x2="1150" y2="648" stroke="#d0d7de"/>
 <text x="535" y="680" class="accent">behrad@github:~$</text>
