@@ -31,8 +31,8 @@ text { font-family: "Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; w
 <text x="525" y="372" class="accent">$ git status --short</text>
 <text x="525" y="399" class="success">M</text><text x="545" y="399" class="value">building Dotick</text>
 <text x="525" y="424" class="success">A</text><text x="545" y="424" class="value">symbol-art</text>
-<text x="525" y="451" class="muted">github</text><text x="600" y="451" class="value" id="github_data">profile loading...</text>
-<text x="525" y="476" class="muted">last push</text><text x="620" y="476" class="value" id="activity_data">—</text>
+<text x="525" y="451" class="muted">github</text><text x="600" y="451" class="value" id="github_data">9 public repos · 31 followers</text>
+<text x="525" y="476" class="muted">last push</text><text x="620" y="476" class="value" id="activity_data">symbol-art · 2026-09-11</text>
 <line x1="525" y1="494" x2="1150" y2="494" stroke="#253041"/>
 <text x="525" y="528" class="accent">behrad@github:~$</text><text x="690" y="528" class="text cursor">█</text>
 </svg>
