@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560">
+<style>
+text { font-family: "Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; white-space: pre; }
+.ascii { fill:#c9ddff; font-size:11.4px; }
+.text { fill:#e6edf3; font-size:15px; }
+.muted { fill:#8b98aa; font-size:13px; }
+.key { fill:#6ea8fe; font-size:14px; }
+.value { fill:#e6edf3; font-size:14px; }
+.accent { fill:#b9d2ff; font-size:14px; }
+.success { fill:#7ee787; font-size:14px; }
+.cursor { animation:blink 1.1s steps(2,start) infinite; }
+@keyframes blink { 50% { opacity:0; } }
+</style>
+<rect width="1180" height="560" rx="18" fill="#0e1116"/>
+<rect x="1" y="1" width="1178" height="558" rx="17" fill="none" stroke="#253041"/>
+<text x="28" y="32" class="muted">~/profile</text>
+<text x="1085" y="32" class="muted">tty0</text>
+<line x1="28" y1="46" x2="1152" y2="46" stroke="#253041"/>
+<text x="24" y="68" class="ascii"><tspan x="24" dy="0">                                                       </tspan><tspan x="24" dy="15.2">                            ,,                         </tspan><tspan x="24" dy="15.2">                      ,~*?*L&quot;~&quot;_.                      </tspan><tspan x="24" dy="15.2">                   ..&#x27;`-&#x27;&#x27;:-,,&#x27;-?+_                    </tspan><tspan x="24" dy="15.2">                  :-.   `,__yyL_&#x27;*+&quot;                   </tspan><tspan x="24" dy="15.2">                 `&#x27;-.  ,jgggggggp_,-_                  </tspan><tspan x="24" dy="15.2">                      &#x27;__`&quot;ff&quot;&quot;?fk`*/L                 </tspan><tspan x="24" dy="15.2">                     _(_&quot;-_g&amp;__]fg_``&#x27;.                </tspan><tspan x="24" dy="15.2">                    ,dgggR9B&amp;&amp;Bgggk,                   </tspan><tspan x="24" dy="15.2">                   `_f9M%n&#x27;&quot;*=@Bggpy                   </tspan><tspan x="24" dy="15.2">                    ii?k___[QE_j&amp;&amp;P*                   </tspan><tspan x="24" dy="15.2">                     &#x27;&quot;??fL[$gg&amp;gp&quot;                    </tspan><tspan x="24" dy="15.2">                      ,&#x27;&quot;&quot;f%@BB@fr                     </tspan><tspan x="24" dy="15.2">                      |_.```&#x27;_]qgL                     </tspan><tspan x="24" dy="15.2">                      jyL__xgggg&amp;[                     </tspan><tspan x="24" dy="15.2">                  ..&#x27;-byjLLaggggggk)~_,                </tspan><tspan x="24" dy="15.2">            ,,~;&quot;&#x27;&#x27;````*?hwdBBB@h?\_|/?7=+__           </tspan><tspan x="24" dy="15.2">         ,*\&quot;&quot;,&#x27;&quot;-,,,.... ````,__&lt;+??l\/\*\*???=L_       </tspan><tspan x="24" dy="15.2">       ,&quot;&quot;&#x27;*~&quot;-.``&#x27;&#x27;&#x27;&#x27;&#x27;.,....&#x27;&quot;&quot;&quot;&quot;;___^&quot;-;&quot;*^???L.     </tspan><tspan x="24" dy="15.2">     .&#x27;:&#x27;:`;!_,,,......,,&#x27;,,,,&quot;-~__|&lt;^*&#x27;_&quot;&#x27;!\r&gt;&lt;?},    </tspan><tspan x="24" dy="15.2">     &#x27;`-.&#x27;`!&quot;\_,&#x27;,,...,&#x27;&#x27;,&#x27;,:,-&quot;~|**^|&quot;_&quot;&#x27;-*&quot;&quot;\^v?L,   </tspan><tspan x="24" dy="15.2">   .,.,&#x27;.``;&#x27;&quot;__&#x27;&#x27;,,..,,`&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;-!&quot;&quot;*^!_*&#x27;.,&#x27; &#x27;!/\+}&lt;_  </tspan><tspan x="24" dy="15.2">   &#x27;-,.,.``:.`*&gt;_.&#x27;&#x27;.,--.`&#x27;.&#x27;&#x27;&#x27;,&quot;&quot;&quot;&quot;&quot;&quot;&quot;&#x27;.,&#x27; `,&#x27;,*?L?l_ </tspan><tspan x="24" dy="15.2">  ..,``-\ `&quot;,`&#x27;*\_,,&#x27;&#x27;!_:.```&#x27;&#x27;&#x27;--&quot;_~~&quot;&#x27;.&#x27;  `&#x27;_&quot;&quot;_+\~| </tspan><tspan x="24" dy="15.2"> ...!,.`!&#x27;`&#x27;,.`&#x27;&quot;&quot;!;_,~|!-.```.&#x27;&#x27;&#x27;&#x27;&quot;_;-,:`  .,&quot;~&quot;_|&quot;&lt;^ </tspan><tspan x="24" dy="15.2">.,.`&#x27;\,`&#x27;&quot;``&#x27;..``&#x27;&quot;&quot;&quot;!&quot;~*;,.````&#x27;&#x27;&#x27;&#x27;&quot;~-&#x27;&#x27;  ``-&quot;&quot;&quot;,|&quot;_7&quot;;</tspan><tspan x="24" dy="15.2">:_-.`|_.., ```````&#x27;&#x27;,&#x27;&#x27;&#x27;&quot;&quot;&quot;,...`````...,`   .,&#x27;,~|&lt;?^&#x27;|</tspan><tspan x="24" dy="15.2">&quot;&quot;_,.&#x27;i_&#x27;;    `````&#x27;-,.``&#x27;&quot;:...`````...&#x27;   `.&#x27;.,:_i?&quot;&#x27;J</tspan></text>
+<text x="30" y="528" class="muted">rendered with symbol-art</text>
+<text x="525" y="86" class="text">behrad@github</text>
+<text x="525" y="108" class="muted">──────────────────────────────────────────────</text>
+<text x="525" y="138" class="key">whoami</text><text x="650" y="138" class="value">Computer Engineering student</text>
+<text x="525" y="165" class="key">base</text><text x="650" y="165" class="value">Tehran · AUT</text>
+<text x="525" y="192" class="key">focus</text><text x="650" y="192" class="value">software · product · systems</text>
+<text x="525" y="219" class="key">stack</text><text x="650" y="219" class="value">Python · Django · PostgreSQL · TypeScript</text>
+<text x="525" y="257" class="accent">~/projects</text>
+<text x="525" y="285" class="muted">├─</text><text x="555" y="285" class="key">Dotick</text><text x="700" y="285" class="muted">productivity system</text>
+<text x="525" y="310" class="muted">├─</text><text x="555" y="310" class="key">symbol-art</text><text x="700" y="310" class="muted">image → ASCII renderer</text>
+<text x="525" y="335" class="muted">└─</text><text x="555" y="335" class="key">experiments/</text><text x="700" y="335" class="muted">small things worth building</text>
+<text x="525" y="372" class="accent">$ git status --short</text>
+<text x="525" y="399" class="success">M</text><text x="545" y="399" class="value">building Dotick</text>
+<text x="525" y="424" class="success">A</text><text x="545" y="424" class="value">symbol-art</text>
+<text x="525" y="451" class="muted">github</text><text x="600" y="451" class="value" id="github_data">profile loading...</text>
+<text x="525" y="476" class="muted">last push</text><text x="620" y="476" class="value" id="activity_data">—</text>
+<line x1="525" y1="494" x2="1150" y2="494" stroke="#253041"/>
+<text x="525" y="528" class="accent">behrad@github:~$</text><text x="690" y="528" class="text cursor">█</text>
+</svg>
