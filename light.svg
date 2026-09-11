@@ -24,20 +24,20 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 
 <text x="535" y="143" class="accent">identity</text>
 <text x="535" y="171" class="key">name</text>
-<text x="660" y="171" class="value">Behrad Hozouri</text>
+<text x="690" y="171" class="value">Behrad Hozouri</text>
 <text x="535" y="198" class="key">role</text>
-<text x="660" y="198" class="value-small">Computer Engineering Student · Amirkabir University of Technology</text>
+<text x="690" y="198" class="value-small">Computer Engineering Student · Amirkabir University of Technology</text>
 <text x="535" y="225" class="key">uptime</text>
-<text x="660" y="225" class="value">20y 5m 1d</text>
+<text x="690" y="225" class="value">20y 5m 1d</text>
 
 <text x="535" y="270" class="accent">current</text>
 <text x="535" y="298" class="key">project</text>
-<text x="660" y="298" class="value">Dotick</text>
+<text x="690" y="298" class="value">Dotick</text>
 <text x="535" y="325" class="key">github</text>
-<text x="660" y="325" class="value">7 repos · 8 stars · 31 followers</text>
+<text x="690" y="325" class="value">7 repos · 8 stars · 31 followers</text>
 <text x="535" y="352" class="key">last push</text>
-<text x="660" y="352" class="value">Dotick · 2026-09-11</text>
-<text x="535" y="379" class="key">recently shipped</text>
+<text x="690" y="352" class="value">Dotick · 2026-09-11</text>
+<text x="535" y="379" class="key">shipped</text>
 <text x="690" y="379" class="value">Update output image format in README</text>
 
 <text x="535" y="428" class="accent">stack</text>

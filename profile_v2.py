@@ -193,20 +193,20 @@ text {{ font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; w
 
 <text x="535" y="143" class="accent">identity</text>
 <text x="535" y="171" class="key">name</text>
-<text x="660" y="171" class="value">{esc(data['name'])}</text>
+<text x="690" y="171" class="value">{esc(data['name'])}</text>
 <text x="535" y="198" class="key">role</text>
-<text x="660" y="198" class="value-small">{STATIC['role']}</text>
+<text x="690" y="198" class="value-small">{STATIC['role']}</text>
 <text x="535" y="225" class="key">uptime</text>
-<text x="660" y="225" class="value">{esc(data['uptime'])}</text>
+<text x="690" y="225" class="value">{esc(data['uptime'])}</text>
 
 <text x="535" y="270" class="accent">current</text>
 <text x="535" y="298" class="key">project</text>
-<text x="660" y="298" class="value">{esc(data['current'])}</text>
+<text x="690" y="298" class="value">{esc(data['current'])}</text>
 <text x="535" y="325" class="key">github</text>
-<text x="660" y="325" class="value">{esc(github_summary)}</text>
+<text x="690" y="325" class="value">{esc(github_summary)}</text>
 <text x="535" y="352" class="key">last push</text>
-<text x="660" y="352" class="value">{esc(data['last_push'])}</text>
-<text x="535" y="379" class="key">recently shipped</text>
+<text x="690" y="352" class="value">{esc(data['last_push'])}</text>
+<text x="535" y="379" class="key">shipped</text>
 <text x="690" y="379" class="value">{shipped_value}</text>
 
 <text x="535" y="428" class="accent">stack</text>
