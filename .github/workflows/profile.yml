@@ -3,11 +3,13 @@ name: refresh profile
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 4 * * *"
+    - cron: "17 * * * *"
   push:
     branches: [main]
     paths:
-      - "profile.py"
+      - "profile_v2.py"
+      - "assets/portrait.txt"
+      - ".github/workflows/profile.yml"
 
 permissions:
   contents: write
@@ -23,7 +25,7 @@ jobs:
       - name: Refresh GitHub data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python profile.py
+        run: python profile_v2.py
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
