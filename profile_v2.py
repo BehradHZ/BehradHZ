@@ -14,7 +14,7 @@ PROFILE_REPO = USER
 
 STATIC = {
     "name": "Behrad Hozouri",
-    "role": "Computer Engineering Student at Amirkabir University of Technology",
+    "role": "Computer Engineering Student · Amirkabir University of Technology",
     "contact": "behradhozouri@gmail.com",
     "backend": "Python · Django",
     "frontend": "TypeScript · React Native",
@@ -95,7 +95,6 @@ def public_repos():
 
 
 def current_project(repos):
-    # Optional manual override: add the GitHub topic `active` to a repo.
     active = [repo for repo in repos if "active" in (repo.get("topics") or [])]
     pool = active or repos
     if not pool:
@@ -106,8 +105,6 @@ def current_project(repos):
 def latest_commit(repos):
     candidates = []
 
-    # Checking the most recently pushed repositories is enough to identify the
-    # latest authored commit without spending the whole API rate limit.
     for repo in repos[:10]:
         try:
             query = urllib.parse.urlencode({"per_page": 1, "author": USER})
@@ -174,11 +171,23 @@ def portrait():
         .splitlines()
     )
 
-    output = ['<text x="24" y="68" class="ascii">']
+    # Match symbol-art's Windows preview geometry: Consolas at 20 px and
+    # cell-aspect 0.5, then uniformly scale the exact text grid.
+    cell_width = 12.05
+    line_height = cell_width / 0.5
+    source_width = max((len(line) for line in lines), default=1) * cell_width + 40
+    source_height = max(len(lines), 1) * line_height + 40
+    target_size = 455.0
+    scale = min(target_size / source_width, target_size / source_height)
+
+    output = [
+        f'<g transform="translate(24 58) scale({scale:.6f})">',
+        '<text x="20" y="36" class="ascii" xml:space="preserve">',
+    ]
     for index, line in enumerate(lines):
-        dy = "0" if index == 0 else "15.2"
-        output.append(f'<tspan x="24" dy="{dy}">{esc(line)}</tspan>')
-    output.append("</text>")
+        dy = "0" if index == 0 else f"{line_height:.2f}"
+        output.append(f'<tspan x="20" dy="{dy}">{esc(line)}</tspan>')
+    output.extend(["</text>", "</g>"])
     return "".join(output)
 
 
@@ -197,17 +206,21 @@ def svg(theme, data, portrait_svg):
     shipped = data["shipped"]
     if shipped:
         shipped_svg = (
-            f'<text x="535" y="535" class="muted">{esc(shipped["sha"])}</text>'
-            f'<text x="610" y="535" class="key">{esc(cut(shipped["repo"], 18))}</text>'
-            f'<text x="775" y="535" class="value">{esc(cut(shipped["message"], 47))}</text>'
+            f'<text x="535" y="614" class="muted">{esc(shipped["sha"])}</text>'
+            f'<text x="610" y="614" class="key">{esc(cut(shipped["repo"], 18))}</text>'
+            f'<text x="775" y="614" class="value">{esc(cut(shipped["message"], 47))}</text>'
         )
     else:
-        shipped_svg = '<text x="535" y="535" class="muted">—</text>'
+        shipped_svg = '<text x="535" y="614" class="muted">—</text>'
+
+    github_summary = (
+        f'{data["repos"]} repos · {data["stars"]} stars · {data["followers"]} followers'
+    )
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
 <style>
 text {{ font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; white-space:pre; }}
-.ascii {{ fill:{colors['portrait']}; font-size:11.4px; }}
+.ascii {{ fill:{colors['portrait']}; font-family:Consolas,"Courier New","Liberation Mono","DejaVu Sans Mono",monospace; font-size:20px; font-weight:400; font-variant-ligatures:none; letter-spacing:0; }}
 .text {{ fill:{colors['text']}; font-size:15px; }}
 .muted {{ fill:{colors['muted']}; font-size:13px; }}
 .key {{ fill:{colors['accent']}; font-size:14px; }}
@@ -224,11 +237,7 @@ text {{ font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; w
 <line x1="28" y1="46" x2="1152" y2="46" stroke="{colors['line']}"/>
 
 {portrait_svg}
-<text x="30" y="505" class="muted">rendered with symbol-art · text mode</text>
-<text x="30" y="540" class="key">uptime</text>
-<text x="145" y="540" class="value">{esc(data['uptime'])}</text>
-<text x="30" y="568" class="key">contact</text>
-<text x="145" y="568" class="value">{STATIC['contact']}</text>
+<text x="30" y="535" class="muted">rendered with symbol-art</text>
 
 <text x="535" y="86" class="text">behrad@github</text>
 <text x="535" y="108" class="muted">────────────────────────────────────────────────</text>
@@ -238,28 +247,27 @@ text {{ font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; w
 <text x="660" y="171" class="value">{esc(data['name'])}</text>
 <text x="535" y="198" class="key">role</text>
 <text x="660" y="198" class="value-small">{STATIC['role']}</text>
+<text x="535" y="225" class="key">uptime</text>
+<text x="660" y="225" class="value">{esc(data['uptime'])}</text>
+<text x="535" y="252" class="key">contact</text>
+<text x="660" y="252" class="value">{STATIC['contact']}</text>
 
-<text x="535" y="242" class="accent">current</text>
-<text x="535" y="270" class="key">project</text>
-<text x="660" y="270" class="value">{esc(data['current'])}</text>
-<text x="535" y="297" class="key">last push</text>
-<text x="660" y="297" class="value">{esc(data['last_push'])}</text>
+<text x="535" y="296" class="accent">current</text>
+<text x="535" y="324" class="key">project</text>
+<text x="660" y="324" class="value">{esc(data['current'])}</text>
+<text x="535" y="351" class="key">last push</text>
+<text x="660" y="351" class="value">{esc(data['last_push'])}</text>
 
-<text x="535" y="341" class="accent">github</text>
-<text x="535" y="369" class="key">repos</text>
-<text x="660" y="369" class="value">{data['repos']}</text>
-<text x="535" y="396" class="key">stars</text>
-<text x="660" y="396" class="value">{data['stars']}</text>
-<text x="535" y="423" class="key">followers</text>
-<text x="660" y="423" class="value">{data['followers']}</text>
+<text x="535" y="395" class="key">github</text>
+<text x="660" y="395" class="value">{esc(github_summary)}</text>
 
-<text x="535" y="467" class="accent">stack</text>
-<text x="535" y="495" class="key">stack.backend</text><text x="690" y="495" class="value">{STATIC['backend']}</text>
-<text x="535" y="520" class="key">stack.frontend</text><text x="690" y="520" class="value">{STATIC['frontend']}</text>
-<text x="535" y="545" class="key">stack.data</text><text x="690" y="545" class="value">{STATIC['data']}</text>
-<text x="535" y="570" class="key">stack.tools</text><text x="690" y="570" class="value">{STATIC['tools']}</text>
+<text x="535" y="439" class="accent">stack</text>
+<text x="535" y="467" class="key">stack.backend</text><text x="690" y="467" class="value">{STATIC['backend']}</text>
+<text x="535" y="492" class="key">stack.frontend</text><text x="690" y="492" class="value">{STATIC['frontend']}</text>
+<text x="535" y="517" class="key">stack.data</text><text x="690" y="517" class="value">{STATIC['data']}</text>
+<text x="535" y="542" class="key">stack.tools</text><text x="690" y="542" class="value">{STATIC['tools']}</text>
 
-<text x="535" y="614" class="accent">recently shipped</text>
+<text x="535" y="586" class="accent">recently shipped</text>
 {shipped_svg}
 
 <line x1="535" y1="648" x2="1150" y2="648" stroke="{colors['line']}"/>
