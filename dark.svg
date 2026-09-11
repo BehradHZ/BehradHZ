@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
 <style>
 text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; white-space:pre; }
-.ascii { fill:#c9ddff; font-size:11.4px; }
+.ascii { fill:#c9ddff; font-family:Consolas,"Courier New","Liberation Mono","DejaVu Sans Mono",monospace; font-size:20px; font-weight:400; font-variant-ligatures:none; letter-spacing:0; }
 .text { fill:#e6edf3; font-size:15px; }
 .muted { fill:#8b98aa; font-size:13px; }
 .key { fill:#6ea8fe; font-size:14px; }
@@ -17,12 +17,8 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="1085" y="32" class="muted">tty0</text>
 <line x1="28" y1="46" x2="1152" y2="46" stroke="#253041"/>
 
-<text x="24" y="68" class="ascii"><tspan x="24" dy="0">                                                       </tspan><tspan x="24" dy="15.2">                            ,,                         </tspan><tspan x="24" dy="15.2">                      ,~*?*L"~"_.                      </tspan><tspan x="24" dy="15.2">                   ..'`-'':-,,'-?+_                    </tspan><tspan x="24" dy="15.2">                  :-.   `,__yyL_'*+"                   </tspan><tspan x="24" dy="15.2">                 `'-.  ,jgggggggp_,-_                  </tspan><tspan x="24" dy="15.2">                      '__`"ff""?fk`*/L                 </tspan><tspan x="24" dy="15.2">                     _(_"-_g&amp;__]fg_``'.                </tspan><tspan x="24" dy="15.2">                    ,dgggR9B&amp;&amp;Bgggk,                   </tspan><tspan x="24" dy="15.2">                   `_f9M%n'"*=@Bggpy                   </tspan><tspan x="24" dy="15.2">                    ii?k___[QE_j&amp;&amp;P*                   </tspan><tspan x="24" dy="15.2">                     '"??fL[$gg&amp;gp"                    </tspan><tspan x="24" dy="15.2">                      ,'""f%@BB@fr                     </tspan><tspan x="24" dy="15.2">                      |_.```'_]qgL                     </tspan><tspan x="24" dy="15.2">                      jyL__xgggg&amp;[                     </tspan><tspan x="24" dy="15.2">                  ..'-byjLLaggggggk)~_,                </tspan><tspan x="24" dy="15.2">            ,,~;"''````*?hwdBBB@h?\_|/?7=+__           </tspan><tspan x="24" dy="15.2">         ,*\"",'"-,,,.... ````,__&lt;+??l\/\*\*???=L_       </tspan><tspan x="24" dy="15.2">       ,""'*~"-.``'''''.,....'"""";___^"-;"*^???L.     </tspan><tspan x="24" dy="15.2">     .':':`;!_,,,......,,',,,,"-~__|&lt;^*'_"'!\r&gt;&lt;?},    </tspan><tspan x="24" dy="15.2">     '`-.'`!"\_,',,...,'',',:,-"~|**^|"_"'-*""\^v?L,   </tspan><tspan x="24" dy="15.2">   .,.,'.``;'"__'',,..,,`''''''-!""*^!_*'.,' '!/\+}&lt;_  </tspan><tspan x="24" dy="15.2">   '-,.,.``:.`*&gt;_.''.,--.`'.''',"""""""'.,' `,',*?L?l_ </tspan><tspan x="24" dy="15.2">  ..,``-\ `",`'*\_,,''!_:.```'''--"_~~"'.'  `'_""_+\~| </tspan><tspan x="24" dy="15.2"> ...!,.`!'`',.`'""!;_,~|!-.```.''''"_;-,:`  .,"~"_|"&lt;^ </tspan><tspan x="24" dy="15.2">.,.`'\,`'"``'..``'"""!"~*;,.````''''"~-''  ``-""",|"_7";</tspan><tspan x="24" dy="15.2">:_-.`|_.., ```````'','''""",...`````...,`   .,',~|&lt;?^'|</tspan><tspan x="24" dy="15.2">""_,.'i_';    `````'-,.``'":...`````...'   `.'.,:_i?"'J</tspan></text>
-<text x="30" y="505" class="muted">rendered with symbol-art · text mode</text>
-<text x="30" y="540" class="key">uptime</text>
-<text x="145" y="540" class="value">20y 5m 1d</text>
-<text x="30" y="568" class="key">contact</text>
-<text x="145" y="568" class="value">behradhozouri@gmail.com</text>
+<g transform="translate(24 58) scale(0.625989)"><text x="20" y="36" class="ascii" xml:space="preserve"><tspan x="20" dy="0">                                                       </tspan><tspan x="20" dy="24.10">                            ,,                         </tspan><tspan x="20" dy="24.10">                      ,~*?*L"~"_.                      </tspan><tspan x="20" dy="24.10">                   ..'`-'':-,,'-?+_                    </tspan><tspan x="20" dy="24.10">                  :-.   `,__yyL_'*+"                   </tspan><tspan x="20" dy="24.10">                 `'-.  ,jgggggggp_,-_                  </tspan><tspan x="20" dy="24.10">                      '__`"ff""?fk`*/L                 </tspan><tspan x="20" dy="24.10">                     _(_"-_g&amp;__]fg_``'.                </tspan><tspan x="20" dy="24.10">                    ,dgggR9B&amp;&amp;Bgggk,                   </tspan><tspan x="20" dy="24.10">                   `_f9M%n'"*=@Bggpy                   </tspan><tspan x="20" dy="24.10">                    ii?k___[QE_j&amp;&amp;P*                   </tspan><tspan x="20" dy="24.10">                     '"??fL[$gg&amp;gp"                    </tspan><tspan x="20" dy="24.10">                      ,'""f%@BB@fr                     </tspan><tspan x="20" dy="24.10">                      |_.```'_]qgL                     </tspan><tspan x="20" dy="24.10">                      jyL__xgggg&amp;[                     </tspan><tspan x="20" dy="24.10">                  ..'-byjLLaggggggk)~_,                </tspan><tspan x="20" dy="24.10">            ,,~;"''````*?hwdBBB@h?\_|/?7=+__           </tspan><tspan x="20" dy="24.10">         ,*\"",'"-,,,.... ````,__&lt;+??l\/\*\*???=L_       </tspan><tspan x="20" dy="24.10">       ,""'*~"-.``'''''.,....'"""";___^"-;"*^???L.     </tspan><tspan x="20" dy="24.10">     .':':`;!_,,,......,,',,,,"-~__|&lt;^*'_"'!\r&gt;&lt;?},    </tspan><tspan x="20" dy="24.10">     '`-.'`!"\_,',,...,'',',:,-"~|**^|"_"'-*""\^v?L,   </tspan><tspan x="20" dy="24.10">   .,.,'.``;'"__'',,..,,`''''''-!""*^!_*'.,' '!/\+}&lt;_  </tspan><tspan x="20" dy="24.10">   '-,.,.``:.`*&gt;_.''.,--.`'.''',"""""""'.,' `,',*?L?l_ </tspan><tspan x="20" dy="24.10">  ..,``-\ `",`'*\_,,''!_:.```'''--"_~~"'.'  `'_""_+\~| </tspan><tspan x="20" dy="24.10"> ...!,.`!'`',.`'""!;_,~|!-.```.''''"_;-,:`  .,"~"_|"&lt;^ </tspan><tspan x="20" dy="24.10">.,.`'\,`'"``'..``'"""!"~*;,.````''''"~-''  ``-""",|"_7";</tspan><tspan x="20" dy="24.10">:_-.`|_.., ```````'','''""",...`````...,`   .,',~|&lt;?^'|</tspan><tspan x="20" dy="24.10">""_,.'i_';    `````'-,.``'":...`````...'   `.'.,:_i?"'J</tspan></text></g>
+<text x="30" y="535" class="muted">rendered with symbol-art</text>
 
 <text x="535" y="86" class="text">behrad@github</text>
 <text x="535" y="108" class="muted">────────────────────────────────────────────────</text>
@@ -31,30 +27,29 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="535" y="171" class="key">name</text>
 <text x="660" y="171" class="value">Behrad Hozouri</text>
 <text x="535" y="198" class="key">role</text>
-<text x="660" y="198" class="value-small">Computer Engineering Student at Amirkabir University of Technology</text>
+<text x="660" y="198" class="value-small">Computer Engineering Student · Amirkabir University of Technology</text>
+<text x="535" y="225" class="key">uptime</text>
+<text x="660" y="225" class="value">20y 5m 1d</text>
+<text x="535" y="252" class="key">contact</text>
+<text x="660" y="252" class="value">behradhozouri@gmail.com</text>
 
-<text x="535" y="242" class="accent">current</text>
-<text x="535" y="270" class="key">project</text>
-<text x="660" y="270" class="value">Dotick</text>
-<text x="535" y="297" class="key">last push</text>
-<text x="660" y="297" class="value">Dotick · 2026-09-11</text>
+<text x="535" y="296" class="accent">current</text>
+<text x="535" y="324" class="key">project</text>
+<text x="660" y="324" class="value">Dotick</text>
+<text x="535" y="351" class="key">last push</text>
+<text x="660" y="351" class="value">Dotick · 2026-09-11</text>
 
-<text x="535" y="341" class="accent">github</text>
-<text x="535" y="369" class="key">repos</text>
-<text x="660" y="369" class="value">7</text>
-<text x="535" y="396" class="key">stars</text>
-<text x="660" y="396" class="value">8</text>
-<text x="535" y="423" class="key">followers</text>
-<text x="660" y="423" class="value">31</text>
+<text x="535" y="395" class="key">github</text>
+<text x="660" y="395" class="value">7 repos · 8 stars · 31 followers</text>
 
-<text x="535" y="467" class="accent">stack</text>
-<text x="535" y="495" class="key">stack.backend</text><text x="690" y="495" class="value">Python · Django</text>
-<text x="535" y="520" class="key">stack.frontend</text><text x="690" y="520" class="value">TypeScript · React Native</text>
-<text x="535" y="545" class="key">stack.data</text><text x="690" y="545" class="value">PostgreSQL</text>
-<text x="535" y="570" class="key">stack.tools</text><text x="690" y="570" class="value">Git · Docker · VS Code</text>
+<text x="535" y="439" class="accent">stack</text>
+<text x="535" y="467" class="key">stack.backend</text><text x="690" y="467" class="value">Python · Django</text>
+<text x="535" y="492" class="key">stack.frontend</text><text x="690" y="492" class="value">TypeScript · React Native</text>
+<text x="535" y="517" class="key">stack.data</text><text x="690" y="517" class="value">PostgreSQL</text>
+<text x="535" y="542" class="key">stack.tools</text><text x="690" y="542" class="value">Git · Docker · VS Code</text>
 
-<text x="535" y="614" class="accent">recently shipped</text>
-<text x="535" y="535" class="muted">4734c8f</text><text x="610" y="535" class="key">symbol-art</text><text x="775" y="535" class="value">Update output image format in README</text>
+<text x="535" y="586" class="accent">recently shipped</text>
+<text x="535" y="614" class="muted">4734c8f</text><text x="610" y="614" class="key">symbol-art</text><text x="775" y="614" class="value">Update output image format in README</text>
 
 <line x1="535" y1="648" x2="1150" y2="648" stroke="#253041"/>
 <text x="535" y="680" class="accent">behrad@github:~$</text>
