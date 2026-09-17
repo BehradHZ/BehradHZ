@@ -28,7 +28,7 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="535" y="198" class="key">role</text>
 <text x="690" y="198" class="value-small">Computer Engineering Student · Amirkabir University of Technology</text>
 <text x="535" y="225" class="key">uptime</text>
-<text x="690" y="225" class="value">20y 5m 6d</text>
+<text x="690" y="225" class="value">20y 5m 7d</text>
 
 <text x="535" y="270" class="accent">current</text>
 <text x="535" y="298" class="key">project</text>
