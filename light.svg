@@ -32,13 +32,13 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 
 <text x="535" y="270" class="accent">current</text>
 <text x="535" y="298" class="key">project</text>
-<text x="690" y="298" class="value">Dotick</text>
+<text x="690" y="298" class="value">meowzix</text>
 <text x="535" y="325" class="key">github</text>
 <text x="690" y="325" class="value">8 repos · 14 stars · 32 followers</text>
 <text x="535" y="352" class="key">last push</text>
-<text x="690" y="352" class="value">Dotick · 2026-09-21</text>
+<text x="690" y="352" class="value">meowzix · 2026-09-21</text>
 <text x="535" y="379" class="key">shipped</text>
-<text x="690" y="379" class="value">merge: release Increment 1 to main</text>
+<text x="690" y="379" class="value">feat(ui): add continuous volume and artwork gestures</text>
 
 <text x="535" y="428" class="accent">stack</text>
 <text x="535" y="456" class="key">stack.backend</text><text x="690" y="456" class="value">Python · Django</text>
