@@ -38,7 +38,7 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="535" y="352" class="key">last push</text>
 <text x="690" y="352" class="value">meowzix · 2026-09-24</text>
 <text x="535" y="379" class="key">shipped</text>
-<text x="690" y="379" class="value">fix(ui): polish queue reorder and equalizer seeking</text>
+<text x="690" y="379" class="value">feat(ui): distinguish adaptive shuffle icon</text>
 
 <text x="535" y="428" class="accent">stack</text>
 <text x="535" y="456" class="key">stack.backend</text><text x="690" y="456" class="value">Python · Django</text>
