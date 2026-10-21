@@ -34,7 +34,7 @@ text { font-family:"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace; wh
 <text x="535" y="298" class="key">project</text>
 <text x="690" y="298" class="value">Dotick</text>
 <text x="535" y="325" class="key">github</text>
-<text x="690" y="325" class="value">8 repos · 30 stars · 34 followers</text>
+<text x="690" y="325" class="value">8 repos · 31 stars · 34 followers</text>
 <text x="535" y="352" class="key">last push</text>
 <text x="690" y="352" class="value">Dotick · 2026-10-21</text>
 <text x="535" y="379" class="key">shipped</text>
